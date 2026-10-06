@@ -36,8 +36,16 @@
       <div class="hero-visual reveal reveal-delay" aria-label="Panel visual de trabajo">
         <div class="orb orb-one"></div><div class="orb orb-two"></div>
         <div class="terminal-card">
-          <div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>julio@zapopan:~</span><b>● online</b></div>
+          <div class="terminal-top">
+            <div class="window-dots" role="group" aria-label="Controles de la ventana">
+              <button type="button" class="window-dot window-dot-close" data-window-action="reset" aria-label="Reiniciar ventana" title="Reiniciar posición y tamaño"></button>
+              <button type="button" class="window-dot window-dot-min" data-window-action="minimize" aria-label="Minimizar ventana" title="Minimizar o restaurar"></button>
+              <button type="button" class="window-dot window-dot-max" data-window-action="maximize" aria-label="Maximizar ventana" title="Maximizar o restaurar"></button>
+            </div>
+            <span>julio@zapopan:~</span><b>● online</b>
+          </div>
           <div class="terminal-body"><p><span class="muted">$</span> whoami</p><p class="code-answer">julio-cubas</p><p><span class="muted">$</span> focus --today</p><p class="code-answer">sitios web + automatización</p><p><span class="muted">$</span> status</p><div class="status-row"><span class="check">✓</span> sitios que cargan rápido</div><div class="status-row"><span class="check">✓</span> flujos que quitan trabajo repetido</div><div class="status-row"><span class="check">✓</span> servidores con respaldo</div><p class="cursor-line"><span class="muted">$</span> <span class="cursor"></span></p></div>
+          <span class="window-resize" aria-hidden="true"></span>
         </div>
         <div class="visual-tag tag-top"><span>01</span> curioso por defecto</div><div class="visual-tag tag-bottom"><span>02</span> construyo con cuidado</div>
       </div>
