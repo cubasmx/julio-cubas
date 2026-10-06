@@ -1,10 +1,10 @@
 # Julio Cubas — portafolio personal
 
-Sitio estático de la marca personal de Julio Cubas: sistemas, automatización, desarrollo web y reverse prompt engineering.
+Sitio estático de la marca personal de Julio Cubas: desarrollo web, automatización y sistemas.
 
 ## Sitio publicado
 
-- **Producción:** https://celaya51.github.io/julio-cubas/
+- **Producción:** https://cubasmx.github.io/julio-cubas/
 
 ## Estructura
 
