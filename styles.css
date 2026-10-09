@@ -37,6 +37,20 @@
 .cases-note a{color:var(--lime);text-decoration:none;border-bottom:1px solid rgba(215,247,91,.4)}
 .cases-note a:hover{border-bottom-color:var(--lime)}
 
+.case-links{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;margin:4px 0 0}
+.case-links a{font:12px var(--mono);color:var(--lime);text-decoration:none;border-bottom:1px solid rgba(215,247,91,.4)}
+.case-links a:hover{border-bottom-color:var(--lime)}
+.case-links a span{margin-left:6px}
+.case-links-note{font:12px var(--mono);color:#68736e}
+
+.live-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.live-list li{padding:28px 0;border-bottom:1px solid var(--line)}
+.live-list h3{margin:8px 0 6px;font-size:1.35rem}
+.live-list a{color:var(--ink);text-decoration:none}
+.live-list a span{color:var(--lime);margin-left:8px}
+.live-list a:hover{color:var(--lime)}
+.live-list p:last-child{margin:0;color:var(--muted);font-size:14.5px;max-width:640px}
+
 /* --- Detalle técnico plegable --- */
 .case-tech{margin-top:22px;border:1px solid var(--line);background:var(--panel)}
 .case-tech summary{display:flex;align-items:center;gap:10px;padding:13px 16px;cursor:pointer;font:11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--cyan);list-style:none}

@@ -1,6 +1,6 @@
 # Julio Cubas — portafolio personal
 
-Sitio estático de la marca personal de Julio Cubas: desarrollo web, automatización y sistemas.
+Sitio estático de la carta personal de Julio Cubas: desarrollador fullstack (frontend, backend y servidor).
 
 ## Sitio publicado
 
