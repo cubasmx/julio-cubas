@@ -23,6 +23,7 @@ jobs:
         run: |
           mkdir dist
           cp index.html styles.css script.js dist/
+          cp -r capturas dist/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
