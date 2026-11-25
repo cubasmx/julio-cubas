@@ -4,12 +4,14 @@ Sitio estático de la carta personal de Julio Cubas: desarrollador fullstack (fr
 
 ## Sitio publicado
 
-- **Producción:** https://cubasmx.github.io/julio-cubas/
+- **Producción:** https://cubasmx.github.io/julio-cubas/ — redirige a
+  https://cubasmx.github.io/land/ (servicios de Julio Cubas y Ana Paula Orozco).
 
 ## Estructura
 
 ```
-index.html      # Página única (hero, servicios, trabajo, stack, contacto)
+index.html      # Redirección a la landing de servicios (land)
+404.html        # La misma redirección
 styles.css      # Estilos del sitio
 script.js       # Interacciones (menú, reveals, etc.)
 .github/workflows/deploy.yml   # Publicación automática a GitHub Pages
